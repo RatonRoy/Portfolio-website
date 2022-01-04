@@ -16,6 +16,10 @@
     width: 85%;
     margin: 0 auto;
   }
+  p{
+      text-align: justify;
+      line-height: 2;
+  }
   .header{
       min-height: 100vh; 
       display: flex;
@@ -65,9 +69,54 @@
     background-color: #e71d36;
     color: #ffffff;
 }
-.my-para{
-    
-    line-height: 2;
+.about-section{
+    min-height: 100vh; 
+}
+#about-me{
+      display: flex;
+      justify-content: space-between;  
+      align-items: center;
+      background-color: #ffffff;
+}
+.section-tittle{
+    text-align: center;
+    background-color:;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;    
+}
+#experience-section{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    background-color: #ffffff;
+   
+}
+.experience-section{
+    min-height: 100vh;
+    padding: 1.5rem 0;
+}
+.card{
+    width: 50%;
+    padding: 1rem;
+    background-color: gainsboro;
+    margin-right: 1rem;
+    box-shadow: 0.6rem 0.8rem 1rem;
+}
+.card-sub-tittle{
+    text-transform: capitalize;
+    color: var(--imageBackColor);
+    font-size: 2rem;
+}
+footer{
+    background-color: black;
+    padding: 0.6rem 1rem;
+
+}
+footer h3{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
 }
   
   
