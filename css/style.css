@@ -1,5 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --textColor: #FF5200; 
+    --imageBackColor : #c32530;
+  }
+  section{
+    width: 85%;
+    margin: 0 auto;
+  }
+  .header{
+      min-height: 100vh; 
+      display: flex;
+      justify-content: space-between; 
+      background-color: white; 
+      align-items: center;
+  }
+  .wrap-side{
+      width: 50%;
+  }
+  h1{
+      text-transform: capitalize;
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 2.5rem; 
+      color: #d62828; 
+      margin-bottom: 2rem;
+      padding: 0.8rem;
+  }
+  span{
+      font-size: 3rem;
+      color: #f77f00;
+  }
+  h2{
+      text-transform: capitalize;
+      letter-spacing: 3px; 
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      background-color: #011627;
+      color: #ffffff;
+      padding: 1rem;
+      display: inline-block;
+  }
+  .my-link{
+      text-decoration: none; 
+      display: inline-block;
+      font-size: 1.5rem;
+      color: #e71d36;
+      padding: 0.5rem 2rem;
+      letter-spacing: 2px;
+      border-radius: 5px; 
+      border: 2px solid #e71d36;
+      margin-top: 1rem;
+      transition: all 0.5s;
+  }
+.my-link:hover{
+    background-color: #e71d36;
+    color: #ffffff;
+}
+.my-para{
+    
+    line-height: 2;
+}
+  
+  
